@@ -7,7 +7,7 @@ import json
 import sys
 import os
 from argparse import ArgumentParser, RawTextHelpFormatter
-from utils_lev1.qa import update_excluded_subject_csv, qa_design_matrix, add_to_html_summary
+from .utils_lev1.qa import update_excluded_subject_csv, qa_design_matrix, add_to_html_summary
 
 
 def get_confounds_aroma_nonaggr_data(confounds_file):
